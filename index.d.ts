@@ -1569,6 +1569,7 @@ declare namespace Eris {
     webhookEditMessage(
       webhookID: string,
       token: string,
+      messageID: string,
       options: MessageWebhookContent
     ): Promise<Message<GuildTextableChannel>>;
     on: ClientEvents<this>;
